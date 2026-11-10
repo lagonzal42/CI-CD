@@ -1,0 +1,10 @@
+name: Pimer_workflow
+
+on: push
+
+jobs:
+  probar_software:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar_mensaje
+        run: echo "Hola actions!"
