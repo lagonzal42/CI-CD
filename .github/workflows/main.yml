@@ -9,6 +9,6 @@ jobs:
       - name: Mostrar_mensaje
         run: echo "Hola actions!"
       - name: Bajar_codigo
-        uses: actions/chekcout@v7
+        uses: actions/checkout@v7
       - name: Probar_codigo
         run: python3 main.py
